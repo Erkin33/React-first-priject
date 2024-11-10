@@ -1,0 +1,23 @@
+button {
+    width: 40%;
+    margin-left: 5%;
+    height: 60px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    border-radius: 15px;
+    border: 1px solid silver;
+    color: #2f3535;
+    
+    transition: 0.7s ease-in-out ;
+}
+button:hover{
+    border: 1px solid #041757;
+    transition: 0.7s ease-in-out ;
+    box-shadow: 1px 2px 0px black;
+}
+button:active{
+    border: 1px solid rgb(255, 0, 0);
+}
+button.active {
+    background-color: blue;
+}
